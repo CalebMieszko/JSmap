@@ -11,7 +11,7 @@ async function getCoords(){
     })
     return [pos.coords.latitude, pos.coords.longitude]
 }                   
-
+console.log('Yo.')
 // get the tiles
 const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
